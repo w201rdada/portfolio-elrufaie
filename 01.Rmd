@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Small Business Cash flow Forecast {#CA$HCAST}
 
 #### Keywords {-}
@@ -11,20 +16,19 @@ cash flow, forecast, prediction, do
 
 ## A middle.
 
-This big idea provides a huge help for small businesses. It connects and aggregates all their cloud data to predict the future trends and patterns that impact cash flow.
+This big idea provides a huge help for small businesses. It connects and aggregates all their cloud data, such as bank accounts, accounting solutions, to predict the future trends and patterns that could impact cash flow.
 
-We will be building a predictive analysis based on the following attributes:
+The solution will rely on the following attributes to build an interactive tool that business owners can use to answer fundamental questions about their business and cash forecast:
 
-1. **Cash In**: how much cash they'll be receiving, i.e someone needs to pay them.
+1. **Cash In**: how much cash they'll be receiving, i.e someone to pay them.
 2. **Cash Out**: how much cash he needs pay, i.e paying a vendor.
 3. **Upcoming Expenses**:  planned expenses, i.e property rental, car registration fees.
 
 
 ## An end.
 
-The solution will use these critical attributes to draw valuable insights. Small Businesses will use these valuable insights to become more proactive and better business planners, which could easily be the reason for a business survival.
+The solution will use these critical attributes to draw valuable insights for the small businesses to become more proactive and better business planners, which could easily be the reason for business survival. 
 
-Imagine a solution that can produce something like this:
-*My net income by the date mm/dd/yyyy will be $Y*
-
+Now, take a moment and imagine a solution that can produce something like this:
+*Your net income by mm/dd/yyyy will be $Y. I suggest you cut some of the operational expenses for the next few months*
 
