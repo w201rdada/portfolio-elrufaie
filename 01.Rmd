@@ -7,12 +7,11 @@ output:
 
 #### Keywords {-}
 
-cash flow, forecast, prediction, do
+cash flow, forecast, prediction
 
 ## A beginning.
 
-82% of small business go out of business in the first year due to poor cash-flow management practices. One of the biggest worries that every small business owner has is whether they will have enough cash to go for another month. This uncertainty and unclear visibility into their forecast also become a burden in making investment decisions, such as hiring additional employees, expanding the business, etc.
-
+82% of small business go out of business in the first year due to poor cash-flow management practices. One of the biggest worries that every small business owner has is whether they will have enough cash to go for another month. This uncertainty and unclear visibility into their forecast also becomes a burden in making investment decisions, such as hiring additional employees, expanding the business, etc.[@patterson_perceived_1983]
 
 ## A middle.
 
@@ -23,6 +22,8 @@ The solution will rely on the following attributes to build an interactive tool 
 1. **Cash In**: how much cash they'll be receiving, i.e someone to pay them.
 2. **Cash Out**: how much cash he needs pay, i.e paying a vendor.
 3. **Upcoming Expenses**:  planned expenses, i.e property rental, car registration fees.
+
+//have the information in their fingertips to make the right decisions. 
 
 
 ## An end.
