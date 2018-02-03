@@ -11,24 +11,25 @@ cash flow, forecast, prediction
 
 ## A beginning.
 
-82% of small business go out of business in the first year due to poor cash-flow management practices. One of the biggest worries that every small business owner has is whether they will have enough cash to go for another month. This uncertainty and unclear visibility into their forecast also become a burden in making investment decisions, such as hiring additional employees, expanding the business, etc.[@patterson_perceived_1983]
+A recent study from U.S. Bank found that 82% of small business fail in their first years due to poor cash flow mismanagement [@noauthor_key_2016]. Small Businesses are entrepreneurs by nature; therefore cash management and day-to-day operations such as paying bills, depositing customer check are usually an afterthought. The complexity of managing their cash flow causes blurry visibility to the state and the health of their business, which becomes a burden in making decisions, such as hiring additional employees, expanding the business, or discontinuing a line of products, etc. Some of these decisions could seem trivial at the time, but they may be the tipping point for the business survival or failure.
+
+With data science, we can help small businesses by enlighting them about their cash forecast, predict a forecast and recommend actions to improve it.
 
 ## A middle.
 
-This big idea provides a huge help for small businesses. It connects and aggregates all their cloud data, such as bank accounts, accounting solutions, to predict the future trends and patterns that could impact cash flow. With such critical data, the application is fully aware of information such as: how much cash is available in the user bank account, how much he owes vendors, how much customers owe him.  
+This big idea provides a huge help for small businesses. It connects and aggregates all their cloud fingerprints, such as bank accounts, accounting solutions, inventory management solutions, to predict the future trends and patterns that could impact cash flow. Having such critical information centralized in one place allows the small business owners to gain a 4D sight to their business. Now at their fingertips, any small business owner can quickly know: how much cash is available in his bank account, how much he owes vendors, how much customers owe him, upcoming bills and potential revenue.
 
 The solution will rely on the following attributes to build an interactive tool that business owners can use to answer fundamental questions about their business and cash forecast:
 
 1. **Cash In**: how much cash they'll be receiving, i.e someone to pay them.
-2. **Cash Out**: how much cash he needs pay, i.e paying a vendor.
+2. **Cash Out**: how much cash he needs pay, i.e paying a vendor, payroll.
 3. **Upcoming Expenses**:  planned expenses, i.e property rental, car registration fees.
 
-Adiditonally, a Model can be built to *recommend* actions and decisions to the user. For instance, when the application detects a potential financial impact, it will proactively alert and suggest a solution to the user.
-
+The application will also be to *recommend* actions and decisions. For instance, when the application detects a potential financial impact, it will proactively alert and suggest a solution to the user.
 
 ## An end.
 
-The solution will use these critical attributes to draw valuable insights for the small businesses to become more proactive and better business planners, which could easily be the reason for business survival. Now with such valuable information available at their fingertips, small business owners will have sound confidence in their decision and clear visibility to what is coming ahead. 
+The solution will use these critical attributes to draw valuable insights for the small businesses to become more proactive, less vague aout their business health and better business planners, which could easily be the reason for business survival. Now with such valuable information available at their fingertips, small business owners will have sound confidence in their decision and clear visibility to what is coming ahead. 
 
 Now, take a moment and imagine a solution that can produce something like this:
 *Your net income by mm/dd/yyyy will be $Y. I suggest you cut some of the operational expenses for the next few months*
