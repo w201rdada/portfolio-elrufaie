@@ -11,9 +11,9 @@ cash flow, forecast, prediction
 
 ## A beginning.
 
-A recent study from U.S. Bank found that 82% of small business fail in their first years due to poor cash flow mismanagement [@noauthor_key_2016]. Small Businesses are entrepreneurs by nature; therefore cash management and day-to-day operations such as paying bills, depositing customer check are usually an afterthought. The complexity of managing their cash flow causes blurry visibility to the state and the health of their business, which becomes a burden in making decisions, such as hiring additional employees, expanding the business, or discontinuing a line of products, etc. Some of these decisions could seem trivial at the time, but they may be the tipping point for the business survival or failure.
+A recent study from U.S. Bank found that 82% of small business fail in their first years due to poor cash flow mismanagement [@noauthor_key_2016]. Small Businesses are entrepreneurs by nature; therefore cash management and day-to-day operations such as paying bills, depositing customer check are usually an afterhought. The complexity of managing their cash flow causes blurry visibility to the state and the health of their business, which becomes a burden in making decisions, such as hiring additional employees, expanding the business, or discontinuing a line of products, etc. Some of these decisions could seem trivial at the time, but they may be the tipping point for the business survival or failure.
 
-With data science, we can help small businesses by enlighting them about their cash forecast, predict a forecast and recommend actions to improve it.
+With data science, we can help small businesses by enlighten them about their cash forecast, predict a forecast and recommend actions to improve it.
 
 ## A middle.
 
@@ -29,7 +29,7 @@ The application will also be to *recommend* actions and decisions. For instance,
 
 ## An end.
 
-The solution will use these critical attributes to draw valuable insights for the small businesses to become more proactive, less vague aout their business health and better business planners, which could easily be the reason for business survival. Now with such valuable information available at their fingertips, small business owners will have sound confidence in their decision and clear visibility to what is coming ahead. 
+The solution will use these critical attributes to draw valuable insights for the small businesses to become more proactive, less vague about their business health and better business planners, which could easily be the reason for business survival. Now with such valuable information available at their fingertips, small business owners will have sound confidence in their decision and clear visibility to what is coming ahead. 
 
 Now, take a moment and imagine a solution that can produce something like this:
 *Your net income by mm/dd/yyyy will be $Y. I suggest you cut some of the operational expenses for the next few months*
