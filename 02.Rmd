@@ -4,14 +4,11 @@
 
 summarize, abstract, save time
 
-
 ## The Challenge
-Today, with our busy lives, it is becoming more and more difficult to find the time to read.
-
+Today, with our busy lives, online reading became a more prominent challenge. One study concluded that on average users read at most 28% of the words during an average visit [@read_55_2016]. Another study examined the time spent on every page and determined that 55% of users read five seconds or less [read_55_2016].
 
 ## How to Solve
-The idea is to build a tool that can extract important words and sentences out of a lengthy article and summarize it in few paragraphs. 
-
+The idea is to build an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This online tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words, and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.
 
 ## The Difference
 This will be a huge time saver for all online readers.
