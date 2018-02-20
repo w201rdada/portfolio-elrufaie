@@ -12,5 +12,11 @@ There is a significant opportunity for a solution that can bridge between qualit
 
 The idea is to build an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This tool will solve for "quality" and "time" and will be to provide a summarized version to read in relatively short time. This tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.
 
+The success of this tool is contingent upon the quality of the produced summary, i.e., is it too short to understand the topic? Is it too precise that essential information is excluded? Is it still very long? 
+
+The success of this can be which can be measured in multiple ways: 
+1. Engagement Score: by measuring how often existing users use the tool and if their usage pattern is trending up.
+2. New User SignUp: a side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
+
 ## The Difference
 This will be very useful for anyone seeking to acquire knowledge and information in short period. There will be no reason to turn away long articles or books.
