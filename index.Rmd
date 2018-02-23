@@ -19,7 +19,7 @@ readLines('https://www.zotero.org/api/users/4664558/items/top?limit=25&format=bi
 knitr::include_graphics('img/cashflow.png')
 ```
 
-### Small Business Cash flow Forecast {#CA$HCAST} {-}
+# Small Business Cash flow Forecast {#CA$HCAST} {-}
 
 ## About the author {-}
 
