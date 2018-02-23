@@ -26,8 +26,8 @@ knitr::include_graphics('img/hello-world.png')
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
-knitr::include_url('https://www.bill.com/blog/cash-flow/7-cash-flow-management-tips-for-small-business-owners')
+```{r hello-benji,echo=FALSE,fig.align='center'}
+knitr::include_url('https://www.bill.com/sites/default/files/styles/full_size_image/public/blog_images/body/Cash%20Flow.png?itok=tiZr5rgP')
 ```
 
 ### Small Business Cash flow Forecast {#CA$HCAST} {-}
