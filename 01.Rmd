@@ -3,7 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
-# Small Business Cash flow Forecast {#CA$HCAST}
+# Small Business Cash flow Forecast {#CASHCAST}
 
 #### Keywords {-}
 
