@@ -5,18 +5,26 @@
 summarize, abstract, save time
 
 ## The Challenge
-Today, with our busy lives, finding the time to read has become a prominent challenge. From an online perspective, one study concluded that users read at most 28% of the words during an average visit [@nielsen_how_nodate]. Another study examined the time spent on every page and determined that 55% of users read five seconds or less [@read_55_2016]. With such lack of appetite for long readings, two third of Americans rely today on social media to getting their news [@wagner_two-thirds_2017]. While social media was able to deliver "fast" and "quick" information, sometimes in 140 characters or less, it lacks the depth and breadth. 
+Today, with our busy lives, finding the time to read has become a prominent challenge. From an online perspective, one study concluded that people read at most 28% of the words during an average visit [@nielsen_how_nodate]. Another study examined the time spent on every page and determined that 55% of users read five seconds or less [@read_55_2016]. With such lack of appetite for long readings, two third of Americans rely today on social media to getting their news [@wagner_two-thirds_2017]. While social media was able to deliver "fast" and "quick" information, sometimes in 140 characters or less, it lacks the depth and breadth that is usually needed to digest complex topics. 
 
 ## How to Solve
-There is a significant opportunity for a solution that can bridge between quality and time. This will be an excellent motivator for people who seek quality readings but have limited time to read.
+There is a significant opportunity for a solution that can bridge between time and quality. This solution will be an excellent tool for people who seek quality readings but have limited time.
 
-The idea is to build an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This tool will solve for "quality" and "time" and will be to provide a summarized version to read in relatively short time. This tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.
+The idea is to build an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This tool will solve for "time" and "quality" simultaneously. The output of the tool is a summarized version that can be read in relatively short time. This tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.
 
 The success of this tool is contingent upon the quality of the produced summary, i.e., is it too short to understand the topic? Is it too precise that essential information is excluded? Is it still very long? 
 
-The success of this can be which can be measured in multiple ways: 
-1. Engagement Score: by measuring how often existing users use the tool and if their usage pattern is trending up.
-2. New User SignUp: a side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
+The success of this can be which will be measured in multiple ways: 
+
+1. Engagement Score: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.
+
+2. New User SignUp: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
+
+3. Implicit Feedback: Measuring how long user session lasts.  
+
+4. Explicit Feedback: Enabling a thumbs-up, thumbs-down rating with every summary. We will use the results to help us revise and tune the summary. We will also run NPS survey, which is a great way to measure the value the tool is delivering to the users.
+
+5. A/B Experiment: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.
 
 ## The Difference
-This will be very useful for anyone seeking to acquire knowledge and information in short period. There will be no reason to turn away long articles or books.
+This will be very useful for anyone seeking to acquire knowledge and information in a short period. Rather than turning away lengthy articles or books, we believe this tool will encourage users to read and learn more.
