@@ -9,11 +9,18 @@ Today, with our busy lives, finding the time to read has become a prominent chal
 
 ## Success = Time X Quality
 
-There is a golden opportunity for a solution that can balance between time and quality. I believe there is a segment of users, who are hungry for a quality readings but have limited time. This tool is for them.
+I found [@nielsen_how_nodate] study very insightful and eye-opening. The study analyzed over 45K page views and concluded the following observations, including how such studies should be measured:
+1.  People spend some of their time understanding the page layout and navigation features, as well as looking at the images. 
 
-The idea is an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This tool will solve for "time" and "quality" simultaneously. The success of this tool is the product of time and summary quality, therefore we’ll need to continuously measure, test and experiment the quality. Since we have no control over time, the quality will be our path to success.
+2. Eyetracking studies would provide a more precise understanding of how users allocate their time on the web pages. 
 
--- TODO: Similar studies.
+3. There is a definite correlation between the number of words on a page and the time spends on those pages. On an average visit, users read half the information only on those pages with 111 words or less.
+
+There is a golden opportunity for a solution that can balance between time and quality. I believe there is a segment of users, who are hungry for quality readings but have limited time. For those who fall in this segment, say goodbye to skimming! We have a solution for you.
+
+The idea is an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This tool will solve for "time" and "quality" simultaneously. The success of this tool is the product of time and summary quality; therefore we’ll need to measure, test and experiment the quality continuously. Considering we have no control over the time variable, the quality is our path to success.
+
+-- TODO: using a simpler layer for less distraction & more accurate measurement. 
 
 ## How will this work
 
