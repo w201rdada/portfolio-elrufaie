@@ -32,15 +32,15 @@ article?
 
 The success can be measured in multiple ways: 
 
-1. *Engagement Score*: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.
+1. **Engagement Score**: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.
 
-2. *New User SignUp*: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
+2. **New User SignUp**: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
 
-3. *Implicit Feedback*: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.
+3. **Implicit Feedback**: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.
 
-4. *Explicit Feedback*: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.
+4. **Explicit Feedback**: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.
 
-5. *A/B Experiment*: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.
+5. **A/B Experiment**: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.
 
 ## The Difference
 Today there are several players in this space, smmry.com and freesummarizer.com to name few. What makes "Summarize This" different is two key elements:
