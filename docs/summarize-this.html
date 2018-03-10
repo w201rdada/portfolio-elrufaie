@@ -114,9 +114,10 @@
 </div>
 <div id="success-time-x-quality" class="section level2">
 <h2><span class="header-section-number">2.2</span> Success = Time x Quality</h2>
-<p><span class="citation">(NIELSEN <a href="#ref-nielsen_how_nodate">2018</a>)</span> study is very insightful and eye-opening. The study analyzed over 45K page views and concluded the following observations, including how such studies should be measured: 1. People spend some of their time understanding the page layout and navigation features, as well as looking at the images, therefore eye-tracking studies would provide a more precise understanding of how users allocate their time on the web pages.</p>
-<ol start="2" style="list-style-type: decimal">
-<li>There is a strong correlation between the number of words on a page and the time spends on those pages. On an average visit, users read half the information only on those pages with 111 words or less.</li>
+<p><span class="citation">(NIELSEN <a href="#ref-nielsen_how_nodate">2018</a>)</span> study is very insightful and eye-opening. The study analyzed over 45K page views and concluded the following observations, including how such studies should be measured:</p>
+<ol style="list-style-type: decimal">
+<li><p>People spend some of their time understanding the page layout and navigation features, as well as looking at the images, therefore eye-tracking studies would provide a more precise understanding of how users allocate their time on the web pages.</p></li>
+<li><p>There is a strong correlation between the number of words on a page and the time spends on those pages. On an average visit, users read half the information only on those pages with 111 words or less.</p></li>
 </ol>
 <p>There is a golden opportunity for a solution that can balance between time and quality. I believe there is a segment of users, who are hungry for quality readings but have limited time.</p>
 <p>The idea is an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. The success of this tool is the product of <em>time</em> and summary <em>quality</em>; therefore we’ll need to measure, test and experiment the quality continuously. Considering we have no control over the time variable, the quality is our path to success.</p>
@@ -125,12 +126,13 @@
 <h2><span class="header-section-number">2.3</span> How will this work</h2>
 <p>The output of the tool is a summarized version that can be read in relatively short time. This tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.</p>
 <p>As previously said, the success of this tool is contingent upon the quality of the produced summary, i.e., is it too short to understand the topic? Is it too precise that essential information is excluded? Is it still very long? did the summary break the cohesiveness of the article?</p>
-<p>The success can be measured in multiple ways: 1. Engagement Score: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.</p>
-<ol start="2" style="list-style-type: decimal">
-<li><p>New User SignUp: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.</p></li>
-<li><p>Implicit Feedback: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.</p></li>
-<li><p>Explicit Feedback: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.</p></li>
-<li><p>A/B Experiment: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.</p></li>
+<p>The success can be measured in multiple ways:</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Engagement Score</em>: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.</p></li>
+<li><p><em>New User SignUp</em>: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.</p></li>
+<li><p><em>Implicit Feedback</em>: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.</p></li>
+<li><p><em>Explicit Feedback</em>: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.</p></li>
+<li><p><em>A/B Experiment</em>: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.</p></li>
 </ol>
 </div>
 <div id="the-difference" class="section level2">
