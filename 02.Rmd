@@ -1,30 +1,48 @@
 # Summarize This {#summarize-this}
 
+```{r echo=FALSE,out.width='50%'}
+knitr::include_graphics('img/help.jpg')
+```
+
 #### Keywords {-}
 
-summarize, abstract, save time
+summarize, abstract, NLP
 
-## The Challenge
-Today, with our busy lives, finding the time to read has become a prominent challenge. From an online perspective, one study concluded that people read at most 28% of the words during an average visit [@nielsen_how_nodate]. Another study examined the time spent on every page and determined that 55% of users read five seconds or less [@read_55_2016]. With such lack of appetite for long readings, two third of Americans rely today on social media to getting their news [@wagner_two-thirds_2017]. While social media was able to deliver "fast" and "quick" information, sometimes in 140 characters or less, it lacks the depth and breadth that is usually needed to digest complex topics. 
+## Reading... In pursuit of more and better
+Today, with our busy lives, finding the time to read has become a prominent challenge. For web surfers, one study concluded that people read at most 28% of the words during an average visit [@nielsen_how_nodate]. Another study examined the time spent on every page and determined that 55% of users read five seconds or less [@read_55_2016]. With such lack of appetite for long readings, two third of Americans rely today on social media to getting their news [@wagner_two-thirds_2017]. While social media quickly became the new news agency and was able to deliver "fast" and "quick" information, sometimes in 140 characters or less, it lacks the depth and breadth that is required to digest complex topics. 
 
-## How to Solve
-There is a significant opportunity for a solution that can bridge between time and quality. This solution will be an excellent tool for people who seek quality readings but have limited time.
+## Success = Time x Quality
 
-The idea is to build an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. This tool will solve for "time" and "quality" simultaneously. The output of the tool is a summarized version that can be read in relatively short time. This tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.
+[@nielsen_how_nodate] study is very insightful and eye-opening. The study analyzed over 45K page views and concluded the following observations, including how such studies should be measured:
+1. People spend some of their time understanding the page layout and navigation features, as well as looking at the images, therefore eye-tracking studies would provide a more precise understanding of how users allocate their time on the web pages. 
 
-The success of this tool is contingent upon the quality of the produced summary, i.e., is it too short to understand the topic? Is it too precise that essential information is excluded? Is it still very long? 
+2. There is a strong correlation between the number of words on a page and the time spends on those pages. On an average visit, users read half the information only on those pages with 111 words or less.
 
-The success of this can be which will be measured in multiple ways: 
+There is a golden opportunity for a solution that can balance between time and quality. I believe there is a segment of users, who are hungry for quality readings but have limited time. 
 
+The idea is an online tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs. The success of this tool is the product of *time* and summary *quality*; therefore we’ll need to measure, test and experiment the quality continuously. Considering we have no control over the time variable, the quality is our path to success.
+
+## How will this work
+
+The output of the tool is a summarized version that can be read in relatively short time. This tool applies state of the art Natural Language Processing (NLP) models to remove redundant and common English words and then determines important words based on the frequency of appearance. We assume that the important sentences will be the sentences where important words appeared.
+
+As previously said, the success of this tool is contingent upon the quality of the produced summary, i.e., is it too short to understand the topic? Is it too precise that essential information is excluded? Is it still very long? did the summary break the cohesiveness of the 
+article?
+
+The success can be measured in multiple ways: 
 1. Engagement Score: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.
 
 2. New User SignUp: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
 
-3. Implicit Feedback: Measuring how long user session lasts.  
+3. Implicit Feedback: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.
 
-4. Explicit Feedback: Enabling a thumbs-up, thumbs-down rating with every summary. We will use the results to help us revise and tune the summary. We will also run NPS survey, which is a great way to measure the value the tool is delivering to the users.
+4. Explicit Feedback: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.
 
 5. A/B Experiment: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.
 
 ## The Difference
-This will be very useful for anyone seeking to acquire knowledge and information in a short period. Rather than turning away lengthy articles or books, we believe this tool will encourage users to read and learn more.
+Today there are several players in this space, smmry.com and freesummarizer.com to name few. What makes "Summarize This" different is two key elements:
+1. The methodological and continuous model learning approach to improve the quality of the summary.
+2. Unlike smmry.com and freesummarizer.com, Summarize This will be available as a browser plugin, so within any web page that you visit, you can simply click on the "Summarize This" plugin button, and you'll be directed to a new window.
+
+For all the busy people, say goodbye to skimming! Summarize This is here for you!
