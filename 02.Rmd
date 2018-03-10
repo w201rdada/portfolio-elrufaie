@@ -14,6 +14,7 @@ Today, with our busy lives, finding the time to read has become a prominent chal
 ## Success = Time x Quality
 
 [@nielsen_how_nodate] study is very insightful and eye-opening. The study analyzed over 45K page views and concluded the following observations, including how such studies should be measured:
+
 1. People spend some of their time understanding the page layout and navigation features, as well as looking at the images, therefore eye-tracking studies would provide a more precise understanding of how users allocate their time on the web pages. 
 
 2. There is a strong correlation between the number of words on a page and the time spends on those pages. On an average visit, users read half the information only on those pages with 111 words or less.
@@ -30,15 +31,16 @@ As previously said, the success of this tool is contingent upon the quality of t
 article?
 
 The success can be measured in multiple ways: 
-1. Engagement Score: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.
 
-2. New User SignUp: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
+1. *Engagement Score*: A formula that can be measured through various variables, such as how often existing users of the system use the tool and if their usage pattern is trending up.
 
-3. Implicit Feedback: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.
+2. *New User SignUp*: A side-effect of the engagement score that can be measured by analyzing new users trend, which could be a result of the spread of word of mouth.
 
-4. Explicit Feedback: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.
+3. *Implicit Feedback*: Measuring how long user session lasts. To support this, we need to build a predictive model of how long it should take to read the summary and compare that with the session of the user. If the session of the user was significantly less than the predictive range, then that is considered a detractor.
 
-5. A/B Experiment: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.
+4. *Explicit Feedback*: By randomly selecting users for NPS surveys. This will be a simple 1 to 10 rating that will be key to revise and tune the summary. NPS surveys are a great way to measure the value the tool is delivering to the users.
+
+5. *A/B Experiment*: Using different models to summarize long articles and picking the best model based on the collected implicit and explicit feedback.
 
 ## The Difference
 Today there are several players in this space, smmry.com and freesummarizer.com to name few. What makes "Summarize This" different is two key elements:
