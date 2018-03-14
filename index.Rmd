@@ -14,14 +14,23 @@ biblio-style: apalike
 library(magrittr)
 readLines('https://www.zotero.org/api/users/4664558/items/top?limit=25&format=bibtex&key=BC4UM0LIHvYk5Ao4Ij4LmwY6&v=1') %>%writeLines('references.bib')
 ```
-# Small Business Cash flow Forecast {#CASHCAST} {-}
 
+### Abstract of my first idea: Small Business Cash flow Forecast {#CASHCAST} {-}
 <!-- You can include images saved within your repo... -->
 ```{r echo=FALSE,fig.align='center',out.width='50%'}
 knitr::include_graphics('img/cashflow.png')
 ```
+For Small Businesses, cash management and day-to-day operations such as managing inventory, paying bills and depositing customer check are one of their biggest challenges. This what makes 82% of small business fail in their first years. With data science, we can help small business by providing valuable insights to become more proactive, less vague about their business health and better business planners, which could easily be the reason for business survival.
+
+### Abstract of my second idea: Summarize This {#summarize-this} {-}
+<!-- You can include images saved within your repo... -->
+```{r echo=FALSE,fig.align='center',out.width='50%'}
+knitr::include_graphics('img/help.jpg')
+```
+Today, with our busy lives, finding the time to read has become a prominent challenge. For web surfers, one study concluded that people read at most 28% of the words during an average visit. While social media quickly was able to deliver “fast” and “quick” information, it lacks the depth and breadth that is required to digest complex topics. Summarize This provides the balance between time and quality, a tool that can process lengthy articles and extract the important words and sentences to generate a concise summary in few paragraphs.
+
 
 ## About the author {-}
-Harith Elrufaie - MIDS Student, Spring 2018 cohort 
+Harith Elrufaie - MIDS Student, Spring 2018 cohort. Software Engineer at day time, "trying" to be a Data Scientist at evenings, and a Dad and family man on weekends.
 
 *Updated: `r Sys.Date()`*
